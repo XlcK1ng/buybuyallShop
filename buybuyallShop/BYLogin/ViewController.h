@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "bizObject.h"
 
 @interface ViewController : UIViewController
+
+
+@property(nonatomic,strong)UILabel* login_label;
+
+
 
 
 @end
